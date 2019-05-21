@@ -20,7 +20,7 @@ exports.getVideoInfo = async function (videoId) {
     })
         .then(function (response) {
         	result = response.json()
-        	//console.log(response)
+        	console.log(response)
             return result;
         })
         .then(function (jsd) {
